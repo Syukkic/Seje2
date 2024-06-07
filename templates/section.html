@@ -10,7 +10,7 @@
     <div class="post-content">
         {{ section.content | safe }}
     </div>
-    <div class="post-meta">
+    <!-- <div class="post-meta">
         <span class="post-time">
         {% if config.extra.seje_chinese_date %}
             {{ macros::format_chinese_date(year=section.extra.year, month=section.extra.month, day=section.extra.day) }}
@@ -18,7 +18,7 @@
             {{ section.extra.date|date(format="%Y/%m/%d") }}
         {% endif %}
         </span>
-    </div>
+    </div> -->
 </article>
 
 <div class="prev_next">
